@@ -1,0 +1,3 @@
+/* https://create-react-app.dev */
+1. npx create-react-app bank
+2. 
