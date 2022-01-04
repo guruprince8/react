@@ -2,3 +2,4 @@
 1. npx create-react-app bank
 2. component driven interface
 3. https://reactjs.org/docs/react-without-jsx.html
+4. ract routes can be found https://reactrouter.com/docs/en/v6
