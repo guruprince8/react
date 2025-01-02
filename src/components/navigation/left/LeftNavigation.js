@@ -9,7 +9,8 @@ export default function LeftNavigation() {
                     iconClass={item.iconClass} 
                     text={item.text} 
                     link={item.link}>
-                </LeftNavigationItem> ))}
+                </LeftNavigationItem> ))
+        }
         </nav>
     </>
 }

@@ -1,0 +1,10 @@
+.video-item {
+    border-radius: 10px;
+    padding: 5px;
+}
+.youtube-bg {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 100vw;
+}
