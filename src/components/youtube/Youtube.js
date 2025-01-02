@@ -16,7 +16,6 @@ export default function Youtube() {
                 </Col>
                 <Col>
                     <Row>
-
                         {videos.map((video) => (
                             <Col>
                                 <VideoItem key={video.id} video={video}></VideoItem>
