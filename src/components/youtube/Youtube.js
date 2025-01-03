@@ -10,7 +10,6 @@ export default function Youtube() {
                 <TopNavigation></TopNavigation>
             </Row>
             <Row as="section">
-
                 <Col xs={1}>
                     hh
                 </Col>

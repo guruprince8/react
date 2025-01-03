@@ -20,6 +20,10 @@ import DriveOperations from './components/drive/DriveOperations';
 import MailHome from './components/mail/MailHome';
 import Youtube from './components/youtube/Youtube';
 
+// financial routers
+import FinancialHome from './components/financial/FinancialHome';
+import ChaseHome from './components/financial/chase/ChaseHome';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -38,7 +42,10 @@ root.render(
         <Route path='/mail' element={<MailHome></MailHome  >} ></Route>
         <Route path='/youtube' element={<Youtube></Youtube  >} ></Route>
         <Route path='*' element={<HooksPlay></HooksPlay>} ></Route>
-     
+
+        {/* Financial Routers */}
+        <Route path='/financial' element={<FinancialHome></FinancialHome>} ></Route>
+        <Route path='/financial/chase' element={<ChaseHome></ChaseHome>} ></Route>
     </Routes>
   </BrowserRouter>
 );

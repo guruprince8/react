@@ -23,5 +23,10 @@ export const leftNavigationItems=[
         iconClass: "bi bi-filetype-py",
         text: "Python",
         link: "/python"
+    },
+    {
+        iconClass: "bi bi-filetype-py",
+        text: "Financial",
+        link: "/financial"
     }
 ];
